@@ -70,10 +70,20 @@
                 </div>
                 <div class='container btn-continer'>
 
+                    <button type="button" class="btn btn-primary" id='new' onclick="newForm()">New </button>
                     <button type="button" class="btn btn-primary" id='saveBtn' onclick="saveData()" disabled>Save </button>
                     <button type="button" class="btn btn-warning" id='updateBtn' onclick="updateData()" disabled>Update</button>
                     <button type="button" class="btn btn-danger" id='resetBtn' onclick="resetForm()" disabled>Reset</button>
                 </div>
+                <div class='container btn-continer'>
+
+                    <button type="button" class="btn btn-primary" id='first' onclick="getFirst()" disabled>First </button>
+                    <button type="button" class="btn btn-danger" id='prev' onclick="getPrev()" disabled>Prev</button>
+                    <button type="button" class="btn btn-warning" id='next' onclick="getNext()" disabled>Next</button>
+                    <button type="button" class="btn btn-warning" id='last' onclick="getLast()" disabled>Last</button>
+                </div>
+                
+                
             </form>
         </div>
         <script type='text/javascript' src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
